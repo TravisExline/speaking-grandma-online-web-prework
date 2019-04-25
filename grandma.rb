@@ -1,5 +1,11 @@
 # Write a speak_to_grandma method.
-
+def speak_to_grandma(response)
+  if response = "I LOVE YOU GRANDMA!"
+    return "I LOVE YOU TOO PUMPKIN!"
+  elseif response = "Hi Nana, how are you?"
+    return "HUH?! SPEAK UP SONNY!"
+  elseif response = "Hi!"
+    return "HUH?! SPEAK UP SONNY!"
 # Whatever you say to grandma, she should respond with
 # HUH?! SPEAK UP, SONNY!
 # unless you shout it (type in all capitals).
