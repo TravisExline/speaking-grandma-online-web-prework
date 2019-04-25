@@ -1,14 +1,14 @@
 # Write a speak_to_grandma method.
 def speak_to_grandma(response)
-  if response = "I LOVE YOU GRANDMA!"
+  if response == "I LOVE YOU GRANDMA!"
     return "I LOVE YOU TOO PUMPKIN!"
-  elseif response = "Hi Nana, how are you?"
+  elseif response == "Hi Nana, how are you?"
   return "HUH?! SPEAK UP SONNY!"
-  elseif response = "Hi!"
+  elseif response == "Hi!"
   return "HUH?! SPEAK UP SONNY!"
-  elseif response = "WHAT DID YOU EAT TODAY?"
+  elseif response == "WHAT DID YOU EAT TODAY?"
   return "NO, NOT SINCE 1938!"
-  else response = "WHAT?"
+  else response == "WHAT?"
     return "NO, NOT SINCE 1938!"
   end
 end
