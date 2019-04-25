@@ -8,7 +8,7 @@ def speak_to_grandma(response)
     return "HUH?! SPEAK UP SONNY!"
   elseif response = "WHAT DID YOU EAT TODAY?"
     return "NO, NOT SINCE 1938!"
-  elseif response = "WHAT?"
+  else response = "WHAT?"
     return "NO, NOT SINCE 1938!"
   end
 end
