@@ -5,7 +5,7 @@ def speak_to_grandma(response)
     elsif response == "Hi Nana, how are you?"
   return "HUH?! SPEAK UP, SONNY!"
     elsif response == "Hi!"
-  return "HUH?! SPEAK, UP SONNY!"
+  return "HUH?! SPEAK UP, SONNY!"
     elsif response == "WHAT DID YOU EAT TODAY?"
   return "NO, NOT SINCE 1938!"
   else response == "WHAT?"
